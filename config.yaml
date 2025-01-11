@@ -1,4 +1,4 @@
-baseURL : ""
+baseURL : "https://arora-riya.netlify.app/"
 languageCode : en-us
 title : Riya's Website
 theme : PaperMod
@@ -22,7 +22,7 @@ params:
     - name: github
       url: "https://github.com/arora-riya"
     - name: linkedin
-      url: "www.linkedin.com/in/arora-r-iya"
+      url: "https://www.linkedin.com/in/arora-r-iya/"
     - name: codeforces
       url: "https://codeforces.net/profile/ayir.reverse"
 
