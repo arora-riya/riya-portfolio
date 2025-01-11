@@ -1,0 +1,55 @@
+baseURL : ""
+languageCode : en-us
+title : Riya's Website
+theme : PaperMod
+
+params:
+  profileMode:
+    enabled: true
+    title: "Hi! I'm Riya Arora..." # optional default will be site title
+    subtitle: "Final-year CS student at IIT Mandi with a passion for ML and problem-solving. Former Google SWE intern, GHC scholar, and WE scholar. Glad to keep learning and sharing here :)"
+    imageUrl: img/my-picture.jpg
+    # imageTitle: "<title of image as alt>" # optional
+    imageWidth: 160 # custom size
+    imageHeight: 160 # custom size
+    # buttons:
+    #   # - name: Archive
+    #     # url: "/archive"
+    #   - name: Github
+    #     url: "https://github.com/"
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/arora-riya"
+    - name: linkedin
+      url: "www.linkedin.com/in/arora-r-iya"
+    - name: codeforces
+      url: "https://codeforces.net/profile/ayir.reverse"
+
+  cover:
+    linkFullImages: true
+
+  # ShowBreadCrumbs: true
+
+  ShowReadingTime: true
+
+  # ShowShareButtons: true
+  # ShowPostNavLinks: true
+
+menu:
+  main:
+    - identifier: about-me
+      name: About Me
+      url: /about-me/
+      weight: 10
+    - identifier: articles
+      name: Articles
+      url: /articles/
+      weight: 20
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 30
+
+buildFuture: true
+
